@@ -14,7 +14,6 @@ title_separator          : "-"
 name                     : &name "Junteng Liu"
 description              : &description "Junteng Liu's academic personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://spallaselvylt934914.github.io/LJT-Homepage # The base hostname & protocol for your site
-e.g. "https://[your GitHub username].github.io",                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/LJT-Homepage" # the subpath of your site, e.g. "/blog"
 repository               : "spallaselvylt934914/LJT-Homepage"
 
@@ -332,8 +331,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
